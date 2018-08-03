@@ -64,23 +64,23 @@ public class ProposalActivity extends AppCompatActivity {
         Proposer proposer=new Proposer();
         int num=proposer.num;
         String dstplace=proposer.proposers[num].dstplace;
-        System.out.println(proposer.proposers[num].dstplace);
+        //System.out.println(proposer.proposers[num].dstplace);
         String srcplace=proposer.proposers[num].srcplace;
-        System.out.println(proposer.proposers[num].srcplace);
+        //System.out.println(proposer.proposers[num].srcplace);
         String username=proposer.proposers[num].user;
-        System.out.println(proposer.proposers[num].user);
+        //System.out.println(proposer.proposers[num].user);
         String rece_time=proposer.proposers[num].rece_time;
-        System.out.println(proposer.proposers[num].rece_time);
+        //System.out.println(proposer.proposers[num].rece_time);
         String phone=proposer.proposers[num].rephone;
-        System.out.println(proposer.proposers[num].rephone);
+        //System.out.println(proposer.proposers[num].rephone);
         String price=proposer.proposers[num].price;
-        System.out.println(proposer.proposers[num].price);
+        //System.out.println(proposer.proposers[num].price);
         String size=proposer.proposers[num].size;
-        System.out.println(proposer.proposers[num].size);
+        //System.out.println(proposer.proposers[num].size);
         String rev_password=proposer.proposers[num].rev_password;
-        System.out.println(proposer.proposers[num].rev_password);
+        //System.out.println(proposer.proposers[num].rev_password);
         String msg=proposer.proposers[num].msg;
-        System.out.println(proposer.proposers[num].msg);
+        //System.out.println(proposer.proposers[num].msg);
         TextView text = (TextView) this.findViewById(R.id.textView3);
         String str = "接单者：" +username+"\n"+
                 "接单者电话：" +phone+"\n"+
